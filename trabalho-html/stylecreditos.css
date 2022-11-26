@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(excaliburimg.jpg);
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 24px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo .imagem {
+    margin-top: 40px;
+}
+
+.nome h1 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 74px;
+    color: #550620;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.links h3 {
+    font-size: 32px;
+    color: #fff2e7;
+    padding-top: 38px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.paragrafo {
+    color: #fff2e7;
+    font-size: 22px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2ef;
+}
+
+.meunome {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
